@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <circle cx="250" cy="250" r="240" fill="#00b4e5" />
+
+  <defs>
+    <circle id="dot" cx="250" cy="85" r="9" fill="#ffffff" />
+    
+    <clipPath id="gearClip">
+      <rect x="0" y="0" width="360" height="500" />
+    </clipPath>
+  </defs>
+
+  <use href="#dot" transform="rotate(30 250 250)" />
+  <use href="#dot" transform="rotate(60 250 250)" />
+  <use href="#dot" transform="rotate(90 250 250)" />
+
+  <use href="#dot" transform="rotate(155 250 250)" />
+  <use href="#dot" transform="rotate(180 250 250)" />
+  <use href="#dot" transform="rotate(205 250 250)" />
+
+  <use href="#dot" transform="rotate(270 250 250)" />
+  <use href="#dot" transform="rotate(300 250 250)" />
+  <use href="#dot" transform="rotate(330 250 250)" />
+
+  <g stroke="#1b4578" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 155 285 L 185 205 L 215 285" />
+    <path d="M 170 255 L 200 255" />
+    
+    <path d="M 285 220 A 40 40 0 1 0 285 270" />
+    
+    <path d="M 315 205 L 345 205" />
+    <path d="M 330 205 L 330 285" />
+    <path d="M 315 285 L 345 285" />
+  </g>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="205" y="75" width="90" height="60" rx="6" fill="none" stroke="#1b4578" stroke-width="8" />
+    <rect x="195" y="145" width="110" height="8" rx="4" fill="#1b4578" />
+    <path d="M 235 90 L 220 105 L 235 120" stroke="#ffffff" fill="none" stroke-width="6" />
+    <path d="M 265 90 L 280 105 L 265 120" stroke="#ffffff" fill="none" stroke-width="6" />
+    <path d="M 255 90 L 245 120" stroke="#ffffff" fill="none" stroke-width="6" />
+  </g>
+
+  <g transform="translate(135, 345)">
+    <path d="M -35 -45 L 0 -35 L 35 -45 L 35 5 C 35 40, 0 70, 0 70 C 0 70, -35 40, -35 5 Z" fill="#1b4578" />
+  </g>
+
+  <g transform="translate(360, 345)">
+    
+    <g clip-path="url(#gearClip)" transform="translate(-360, -345)">
+      <g transform="translate(360, 345)">
+        <circle cx="0" cy="0" r="22" fill="#1b4578" />
+        <rect x="-8" y="-32" width="16" height="64" fill="#1b4578" />
+        <rect x="-8" y="-32" width="16" height="64" fill="#1b4578" transform="rotate(45)" />
+        <rect x="-8" y="-32" width="16" height="64" fill="#1b4578" transform="rotate(90)" />
+        <rect x="-8" y="-32" width="16" height="64" fill="#1b4578" transform="rotate(135)" />
+        <circle cx="0" cy="0" r="10" fill="#00b4e5" /> </g>
+    </g>
+
+    <g stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round">
+      <path d="M 3 -30 C 25 -35, 40 -20, 35 -5 C 35 5, 45 15, 30 30 C 20 40, 5 35, 3 30" />
+      <path d="M 3 -15 C 15 -15, 25 -5, 15 5" />
+      <path d="M 3 5 C 15 5, 20 15, 10 25" />
+    </g>
+  </g>
+</svg>
